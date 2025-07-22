@@ -1,0 +1,14 @@
+{
+  "name": "My Custom Home Assistant Add-ons",
+  "url": "https://github.com/ekutner/hass-addons",
+  "maintainer": "Eran Kutner <your.email@example.com>",
+  "addons": [
+    {
+      "slug": "octoeverywhere",
+      "url": "https://github.com/ekutner/hass-addons",
+      "version": "1.0.0",
+      "name": "OctoEverywhere serer for Home Assistant",
+      "description": "OctoEverywhere for Bambu Lab and Elegoo printers as a Home Assistant add-on."
+    }
+  ]
+}

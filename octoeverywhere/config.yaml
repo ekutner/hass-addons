@@ -1,0 +1,22 @@
+name: "OctoPrint - OctoEverywhere"
+description: "OctoEverywhere addon for Home Assistant"
+version: "1.0.0"
+slug: "octoeverywhere"
+
+init: false
+arch:
+  - aarch64
+  - amd64
+  - armhf
+  - armv7
+  - i386
+map:
+  - type: data
+    read_only: false
+    
+schema:
+  COMPANION_MODE: list(bambu|elegoo)
+  PRINTER_IP: str
+  ACCESS_CODE: "str?"
+  SERIAL_NUMBER: "str?"
+  

@@ -1,0 +1,23 @@
+
+OctoEverywhere server as a Home Assistant add-on
+
+# About
+[OctoEverywhere](https://octoeverywhere.com/) is an open source project for remotly controlling and monitoring 3D printers. For some manufacturers it is required to install an external service that will be a bridge between the printer and the OctoEverywhere cloud service. Home Assistent can be a great option for hosting that service.  
+Currently supported printers are from Bambu Lab and from Elegoo.
+
+# Installation
+
+1. Click here to add this repository to your Home Assistant add-ons list:
+  [![Open your Home Assistant instance and show the add add-on repository dialog with a specific repository URL pre-filled.](https://my.home-assistant.io/badges/supervisor_add_addon_repository.svg)](https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https%3A%2F%2Fgithub.com%2ekutner%2Fhass-addons)
+
+2. Refresh your browser.
+3. Find the "OctoEverywhere" add-on and click the "INSTALL" button.
+4. Configure the add-on and click on "START".
+
+# Configuration
+Make sure to configure the add-on before starting it.  
+If you are using a Elegoo printer only the IP of the printer is required.  
+If you are using a **Bambu Lab printer** you **MUST** also provide the access code (from the LAN Only menu on the printer) and serial number. Click on "Show unused optional fields" to show the fields for entering those numbers.
+
+# Connecting to OctoEverywhere
+After configuring and starting the add-on go the the "Log" page of the add-on and if everything went well you should see a QR code printed in there. Scan the code with your phone and login to your OctoEverywhere account in order to connect the server you just installed to your OctoEverywhere account.
