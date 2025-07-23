@@ -2,7 +2,7 @@
 OctoEverywhere server as a Home Assistant add-on
 
 # About
-[OctoEverywhere](https://octoeverywhere.com/) is an open source project for remotely controlling and monitoring 3D printers. Specifically for Bambu Lab, this projects allows remote motitoring and control of their printers when using the "LAN Only" and "Developer mode", which are required in order to use third party slicers, such as Orca Slicer. 
+[OctoEverywhere](https://octoeverywhere.com/) is an open source project for remotely controlling and monitoring 3D printers. Specifically for Bambu Lab, this project allows remote monitoring and control of their printers when their "Handy App" can't be used because the printer has been configured to be in "LAN Only mode" and "Developer mode", which are required in order to use third party slicers, such as Orca Slicer. 
 
 For some manufacturers it is required to install an external service that will be a bridge between the printer and the OctoEverywhere cloud service. Home Assistent can be a great option for hosting that service.  
 
