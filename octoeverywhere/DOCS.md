@@ -2,12 +2,18 @@
 OctoEverywhere server as a Home Assistant add-on
 
 # About
-[OctoEverywhere](https://octoeverywhere.com/) is an open source project for remotly controlling and monitoring 3D printers. For some manufacturers it is required to install an external service that will be a bridge between the printer and the OctoEverywhere cloud service. Home Assistent can be a great option for hosting that service.  
-Currently supported printers are from Bambu Lab and from Elegoo.
+[OctoEverywhere](https://octoeverywhere.com/) is an open source project for remotely controlling and monitoring 3D printers. Specifically for Bambu Lab, this projects allows remote motitoring and control of their printers when using the "LAN Only" and "Developer mode", which are required in order to use third party slicers, such as Orca Slicer. 
+
+For some manufacturers it is required to install an external service that will be a bridge between the printer and the OctoEverywhere cloud service. Home Assistent can be a great option for hosting that service.  
+
+Currently supported printers are from Bambu Lab and Elegoo. 
+
+# Pre-Requisite
+You will need a OctoEverywhere account in order to use their cloud service. If you don't already have one then please use this link: https://octoeverywhere.com/?ref=KKNXKL to register, which will grant me their referral benefits, whatever they might be.
 
 # Installation
 
-1. Click here to add this repository to your Home Assistant add-ons list:
+1. Click here to add this repository to your Home Assistant add-ons list, if you haven't already done so:  
   [![Open your Home Assistant instance and show the add add-on repository dialog with a specific repository URL pre-filled.](https://my.home-assistant.io/badges/supervisor_add_addon_repository.svg)](https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https%3A%2F%2Fgithub.com%2Fekutner%2Fhass-addons)
 
 2. Refresh your browser.
